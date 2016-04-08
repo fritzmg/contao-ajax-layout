@@ -20,12 +20,12 @@
 		"forum":"https://community.contao.org/de"
 	},
 	"require":{
-		"php":">=5.4",
-		"contao/core":"~3.5",
+		"php":">=5.2",
+		"contao/core":"~3.0",
 		"contao-community-alliance/composer-installer":"*"
 	},
 	"replace": {
-		"contao-legacy/file_access": "self.version"
+		"contao-legacy/ajax_layout": "self.version"
 	},
 	"extra":{
 		"contao":{
