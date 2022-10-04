@@ -1,4 +1,3 @@
-[![](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/fritzmg/contao-ajax-layout)
 [![](https://img.shields.io/packagist/v/fritzmg/contao-ajax-layout.svg)](https://packagist.org/packages/fritzmg/contao-ajax-layout)
 [![](https://img.shields.io/packagist/dt/fritzmg/contao-ajax-layout.svg)](https://packagist.org/packages/fritzmg/contao-ajax-layout)
 
