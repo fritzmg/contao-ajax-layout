@@ -53,5 +53,8 @@ class AjaxLayout
 			$objLayout->template = 'fe_page_ajax';
 			$objLayout->doctype = $objLayout->doctype;
 		}
+
+		// Do not cache
+		$objPage->cache = false;
 	}
 }
