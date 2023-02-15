@@ -43,16 +43,17 @@ class AjaxLayout
 		else
 		{
 			// create default layout
-			$pid = $objLayout->pid;
-			$objLayout = new LayoutModel();
-			$objLayout->pid = $pid;
-			$objLayout->rows = '1rw';
-			$objLayout->cols = '1cl';
-			$objLayout->orderExt = '';
-			$objLayout->modules = 'a:1:{i:0;a:3:{s:3:"mod";s:1:"0";s:3:"col";s:4:"main";s:6:"enable";s:1:"1";}}';
-			$objLayout->template = 'fe_page_ajax';
-			$objLayout->doctype = $objLayout->doctype;
-			$objLayout->defaultImageDensities = $objLayout->defaultImageDensities;
+			$objAjaxLayout = new LayoutModel();
+			$objAjaxLayout->pid = $objLayout->pid;
+			$objAjaxLayout->rows = '1rw';
+			$objAjaxLayout->cols = '1cl';
+			$objAjaxLayout->orderExt = '';
+			$objAjaxLayout->modules = 'a:1:{i:0;a:3:{s:3:"mod";s:1:"0";s:3:"col";s:4:"main";s:6:"enable";s:1:"1";}}';
+			$objAjaxLayout->template = 'fe_page_ajax';
+			$objAjaxLayout->doctype = $objLayout->doctype;
+			$objAjaxLayout->defaultImageDensities = $objLayout->defaultImageDensities;
+
+			$objLayout = $objAjaxLayout;
 		}
 
 		// Do not cache
