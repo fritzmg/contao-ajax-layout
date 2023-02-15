@@ -52,6 +52,7 @@ class AjaxLayout
 			$objLayout->modules = 'a:1:{i:0;a:3:{s:3:"mod";s:1:"0";s:3:"col";s:4:"main";s:6:"enable";s:1:"1";}}';
 			$objLayout->template = 'fe_page_ajax';
 			$objLayout->doctype = $objLayout->doctype;
+			$objLayout->defaultImageDensities = $objLayout->defaultImageDensities;
 		}
 
 		// Do not cache
